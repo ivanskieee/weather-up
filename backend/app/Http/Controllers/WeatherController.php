@@ -10,7 +10,6 @@ class WeatherController extends Controller
     public function askWeather(Request $request)
     {
         $userInput = $request->input('query');
-
         $cohereResponse = Http::withHeaders([
             'Authorization' => 'Bearer ' . env('COHERE_API_KEY'),
             'Content-Type' => 'application/json',

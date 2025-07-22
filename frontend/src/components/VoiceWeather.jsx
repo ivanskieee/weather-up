@@ -42,7 +42,6 @@ export default function VoiceWeather() {
       </button>
 
       {loading && <p className="mt-6 text-gray-400 animate-pulse">Getting weather...</p>}
-
       {response && (
         <div className="mt-6 text-xl font-medium border border-gray-600 px-6 py-4 rounded-lg">
           🌦 <span className="text-white">{response.location}</span>:{" "}
