@@ -42,6 +42,3 @@ Frontend (React):
    npm run dev
 
 Note: Make sure Laravel runs at http://localhost:8000 and React at http://localhost:5173
-
-License:
-This project is licensed under the MIT License. See LICENSE.txt for details.
